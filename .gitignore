@@ -1,0 +1,77 @@
+# Dependencies and package manager caches
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/versions/
+.npm/
+.pnpm-store/
+
+# Generated builds, caches, and local framework state
+dist/
+.next/
+.vinext/
+out/
+build/
+coverage/
+.cache/
+.turbo/
+.parcel-cache/
+.vite/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment, credentials, signing material, and database state
+.env
+.env.*
+!.env.example
+.dev.vars*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+key.properties
+keystore.properties
+local.properties
+google-services.json
+GoogleService-Info.plist
+credentials.json
+service-account*.json
+*service-account-key*.json
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+.wrangler/
+.sites-runtime/
+
+# Android generated and machine-local files
+.gradle/
+.kotlin/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.apks
+
+# Checkout-local tool state and publication archives
+.agents/
+.codex/
+outputs/
+work/
+
+# Logs and OS metadata
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.DS_Store
+Thumbs.db
+Desktop.ini

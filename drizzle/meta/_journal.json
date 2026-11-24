@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1795500453632,
+      "tag": "0000_crazy_ben_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1795521633359,
+      "tag": "0001_pink_chimera",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1795522311173,
+      "tag": "0002_delivery_refunds",
+      "breakpoints": true
+    }
+  ]
+}
