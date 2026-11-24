@@ -1,0 +1,7 @@
+/toolchain/
+/build/
+/dist/
+*.keystore
+*.jks
+*.p12
+*.idsig

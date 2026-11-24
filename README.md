@@ -6,6 +6,12 @@ Live pilot: [LunchLine](https://lunchline-campus-pilot.scentedtapir5.chatgpt.sit
 
 This repository contains the application source and database migrations. Hosting runs on Sites / Cloudflare Workers with D1. GitHub Pages cannot run the server authentication, API, or D1 database required by this app; publishing this repository does not deploy the application.
 
+## Android pilot
+
+Download `LunchLine.apk` from the [latest release](https://github.com/madhujai2004-eng/lunchline-nitc/releases/latest). It is a test-signed native launcher for Android 6.0 and later that opens the hosted app in a browser Custom Tab. It requires internet, an enabled browser, and access to the live private pilot. It does not provide offline ordering.
+
+The native source, pinned toolchain setup, signing instructions, and verification details are in [android/README.md](android/README.md). No signing key is included. The binary was signature and manifest checked; it has not been installation-tested on a physical Android device or emulator.
+
 ## Local development
 
 Use Node.js 22.13 or later and npm.
